@@ -25,6 +25,7 @@ class Settings(BaseSettings):
     
     # CORS
     ALLOWED_HOSTS: List[str] = ["*"]  # In production, specify actual hosts
+    FRONTEND_URL: str = os.getenv("FRONTEND_URL", "http://localhost:5173")
     
     # File uploads
     MAX_FILE_SIZE: int = 10 * 1024 * 1024  # 10MB

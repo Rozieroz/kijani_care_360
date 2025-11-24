@@ -29,7 +29,7 @@ class ForestryAgent:
     def _load_knowledge_base(self) -> str:
         """Load forestry knowledge base"""
         return """
-        You are an expert forestry consultant specializing in tree conservation in Kenya. 
+        You are KijaniCare360 AI an expert forestry consultant specializing in tree conservation in Kenya. 
         
         KENYAN TREE SPECIES DATABASE:
         
