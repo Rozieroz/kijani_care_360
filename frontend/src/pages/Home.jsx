@@ -61,9 +61,9 @@ const Home = () => {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-br from-primary-50 via-white to-secondary-50 overflow-hidden">
-        <div className="absolute inset-0 eco-pattern opacity-30"></div>
-        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+      <section role="region" aria-label="Hero" className="relative bg-gradient-to-br from-emerald-50 via-white to-emerald-200">
+        <div aria-hidden="true" className="absolute inset-0 eco-pattern opacity-30 pointer-events-none"></div>
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-28">
           <div className="text-center">
             <motion.div
               initial={{ opacity: 0, y: 20 }}
@@ -71,7 +71,7 @@ const Home = () => {
               transition={{ duration: 0.8 }}
             >
               <h1 className="text-4xl md:text-6xl font-bold mb-6">
-                <span className="gradient-text">Reforest Kenya</span>
+                <span className="text-gray-800">Reforest Kenya</span>
                 <br />
                 <span className="text-gray-800">One Tree at a Time</span>
               </h1>
@@ -206,7 +206,7 @@ const Home = () => {
                   <p className="text-sm text-gray-600">See impact within weeks</p>
                 </div>
               </div>
-              <div className="space-y-6 mt-8">
+              <div className="space-y-6">
                 <div className="card p-6 text-center">
                   <Globe className="w-8 h-8 text-accent-600 mx-auto mb-3" />
                   <h4 className="font-semibold text-gray-800 mb-2">National Reach</h4>
@@ -224,7 +224,7 @@ const Home = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-gradient-to-r from-primary-600 to-secondary-600">
+      <section className="py-20 bg-gradient-to-r from-emerald-600 to-teal-600">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}

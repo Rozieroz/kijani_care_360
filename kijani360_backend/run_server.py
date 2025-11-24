@@ -6,6 +6,7 @@ import uvicorn
 import os
 import sys
 from pathlib import Path
+import sys   # <-- added
 
 # Add the app directory to Python path
 app_dir = Path(__file__).parent
