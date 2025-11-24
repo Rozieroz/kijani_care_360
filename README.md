@@ -4,6 +4,8 @@
 
 A comprehensive tree conservation platform for Kenya featuring AI-powered tree expertise, community engagement, gamification, and real-time analytics. The platform combines modern web technologies with environmental science to promote sustainable forestry practices across Kenya.
 
+**Note** Click this [link](https://kijani-care-360.onrender.com/) first and wait for the render service to wake before proceeding to [KijaniCare360](https://kijanicare-360.vercel.app/)
+
 ##  Features
 
 ### Core Features
