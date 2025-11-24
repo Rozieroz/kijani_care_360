@@ -206,7 +206,7 @@ cd frontend
 npm test
 ```
 
-### Code Formatting
+<!-- ### Code Formatting
 ```bash
 # Backend
 black app/
@@ -215,7 +215,7 @@ isort app/
 # Frontend
 npm run lint
 npm run format
-```
+``` -->
 
 ### Database Migrations
 ```bash
