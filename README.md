@@ -4,30 +4,30 @@
 
 A comprehensive tree conservation platform for Kenya featuring AI-powered tree expertise, community engagement, gamification, and real-time analytics. The platform combines modern web technologies with environmental science to promote sustainable forestry practices across Kenya.
 
-## 🌟 Features
+##  Features
 
-### 🌱 Core Features
+### Core Features
 - **Tree Planting Streaks** - Track and maintain tree planting/watering streaks
 - **AI Tree Expert** - LangChain + Groq powered chatbot for tree species advice
 - **Community Forum** - Discussions, topics, and knowledge sharing
 - **Analytics Dashboard** - Kenya forest coverage data and trends
 - **Smart Notifications** - Watering reminders and community updates
 
-### 🏆 Advanced Features
+###  Advanced Features
 - **Gamification System** - Achievements, points, and leaderboards
 - **Regional Recommendations** - Location-based tree species suggestions
 - **Environmental Impact** - CO2 absorption and oxygen production calculations
 - **User Growth Tracking** - Engagement metrics and community stats
 - **Multilingual Support** - English and Swahili content
 
-### 🎯 User Experience
+### User Experience
 - **Modern React Frontend** - Responsive design with Tailwind CSS
 - **Real-time Updates** - Live notifications and data synchronization
 - **Interactive Charts** - Visual analytics with Chart.js
 - **Mobile Optimized** - Progressive Web App capabilities
 - **Smooth Animations** - Enhanced UX with Framer Motion
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - **Backend:** Python 3.8+, PostgreSQL 12+, Redis
@@ -101,7 +101,7 @@ ENABLE_PUSH_NOTIFICATIONS=true
 ### Frontend Configuration
 The frontend automatically connects to the backend API. Update the API base URL in the frontend configuration if needed.
 
-## 📊 Tree Species Database
+## Tree Species Database
 
 The platform includes comprehensive data for 8+ Kenyan tree species:
 
@@ -116,7 +116,7 @@ The platform includes comprehensive data for 8+ Kenyan tree species:
 | Terminalia brownii | - | Dry areas | Multipurpose |
 | Casuarina equisetifolia | - | Coastal | Windbreak |
 
-## 🗺️ Regional Coverage
+## Regional Coverage
 
 - **Central Kenya** (Nairobi, Kiambu, Murang'a)
 - **Western Kenya** (Kakamega, Bungoma, Vihiga)
@@ -126,7 +126,7 @@ The platform includes comprehensive data for 8+ Kenyan tree species:
 - **Nyanza** (Kisumu, Siaya, Migori)
 - **Northern Kenya** (Turkana, Marsabit, Isiolo)
 
-## 🏗️ Architecture
+## Architecture
 
 ### Project Structure
 ```
@@ -175,7 +175,7 @@ kijanicare360/
 - **Framer Motion** - Animations
 - **Lucide React** - Icon library
 
-## 📡 API Endpoints
+## API Endpoints
 
 ### Core Endpoints
 ```
@@ -193,7 +193,7 @@ POST /api/v1/notifications/                 # Smart notifications
 GET  /api/v1/chatbot/recommendations        # Personalized suggestions
 ```
 
-## 🧪 Development
+## Development
 
 ### Running Tests
 ```bash
@@ -224,7 +224,7 @@ alembic revision --autogenerate -m "Description"
 alembic upgrade head
 ```
 
-## 🚀 Production Deployment
+## Production Deployment
 
 ### Docker Deployment
 ```dockerfile
@@ -269,7 +269,7 @@ pip install -r requirements.txt
 uvicorn app.main:app --host 0.0.0.0 --port 8000
 ```
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create feature branch (`git checkout -b feature/amazing-feature`)
@@ -284,23 +284,25 @@ uvicorn app.main:app --host 0.0.0.0 --port 8000
 - Update documentation for API changes
 - Ensure responsive design for frontend changes
 
-## 📄 License
+## License
 
 MIT License - see LICENSE file for details.
 
-## 🆘 Support & Contact
+## Support & Contact  
 
-- 📧 **Email:** support@kijanicare360.com
-- 🐛 **Issues:** GitHub Issues
-- 📖 **Documentation:** /docs endpoint
-- 🌍 **Website:** https://kijanicare360.com
+ **Issues:** GitHub Issues
 
-## 🙏 Acknowledgments
+
+<!-- -  **Email:** support@kijanicare360.com
+-  **Documentation:** /docs endpoint
+-  **Website:** https://kijanicare360.com
+
+<!-- ## 🙏 Acknowledgments -->
 
 - Kenya Forest Service for forest coverage data
 - Groq for AI/LLM capabilities
 - Open source community for amazing tools and libraries
-- Environmental conservation organizations in Kenya
+- Environmental conservation organizations in Kenya -->
 
 ---
 
