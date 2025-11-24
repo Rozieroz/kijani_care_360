@@ -481,3 +481,4 @@ backup/
 archive/
 *.backup
 *.archive
+!.python-version
