@@ -14,7 +14,7 @@ services:
       - key: OPENWEATHER_API_KEY
         sync: false
       - key: FRONTEND_URL
-        value: https://your-frontend-domain.com
+        sync: false
 
 databases:
   - name: kijanicare360-db
