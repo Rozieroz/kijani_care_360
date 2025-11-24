@@ -1,0 +1,22 @@
+services:
+  - type: web
+    name: kijanicare360-backend
+    env: python
+    runtime: python-3.11.9
+    buildCommand: "pip install -r kijani360_backend/requirements.txt"
+    startCommand: "cd kijani360_backend && uvicorn app.main:app --host 0.0.0.0 --port $PORT"
+    healthCheckPath: /api/v1/health
+    envVars:
+      - key: SECRET_KEY
+        generateValue: true
+      - key: GROQ_API_KEY
+        value: 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
+      - key: OPENWEATHER_API_KEY
+        value: 1d49c26bba8efa6a75d1d5c05102f188
+      - key: FRONTEND_URL
+        value: https://your-frontend-domain.com
+
+databases:
+  - name: kijanicare360-db
+    databaseName: kijanicare360
+    user: postgres
