@@ -241,7 +241,7 @@ dist
 
 # Gatsby files
 .cache/
-public
+!public
 
 # Vite build output
 dist-ssr/
